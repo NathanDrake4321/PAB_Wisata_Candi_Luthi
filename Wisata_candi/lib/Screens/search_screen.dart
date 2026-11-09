@@ -16,7 +16,17 @@ class _SearchScreenState extends State<SearchScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold();
-    appBar: Appbar(context)
-  };
+    appBar: AppBar(title : const Text ("Pencarian Candi"),),
+    body: Column(
+      children: [
+        textField(
 
-}
+        )
+      ]
+
+    );
+    
+    };
+  }
+
+
