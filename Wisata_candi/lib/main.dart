@@ -4,6 +4,7 @@ import 'package:flutter_application_1/Screens/detail_screen.dart';
 import 'package:flutter_application_1/providers/auth_provider.dart';
 import 'package:flutter_application_1/providers/favorite_provider.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_application_1/Screens/home_screen.dart';
 
 void main() {
   runApp(
